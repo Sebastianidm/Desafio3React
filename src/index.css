@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.headerContainer {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: rgb(4, 165, 52);
+  height: 200px;
+  
+}
+
+.inputHeader {
+  height: 16px;
+  width: 420px;
+  margin-right: 10px;
+
+}
+
+.bodyContainer {
+  margin-top: 4%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.btn {
+  color: white;
+  background-color: rgb(4, 165, 52);
+  width: 300px;
+  margin: 20px 100px 20px 300px;
+  height: 30px;
+}
+
